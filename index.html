@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM Technology Pty Ltd</title>
+    <meta
+      name="description"
+      content="CRM Technology Pty Ltd. Shop laptops, components, accessories, surveillance, networking, and technology specials across South Africa."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500;700;800&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="nav-frame">
+          <a class="brand" href="#top" aria-label="CRM Technology home">
+            <span class="brand-mark" aria-hidden="true">
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+
+          <nav class="nav-links" id="primaryNav" aria-label="Primary">
+            <a href="#sale">Laptops</a>
+            <a href="#grails">Components</a>
+            <a class="is-hot" href="#categories">Accessories</a>
+            <a href="#stores">Networking</a>
+          </nav>
+
+          <div class="nav-tools">
+            <button
+              class="icon-button"
+              id="themeToggle"
+              type="button"
+              aria-label="Switch to light mode"
+              title="Switch to light mode"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4.5"></circle>
+                <path d="M12 2.5v2.5"></path>
+                <path d="M12 19v2.5"></path>
+                <path d="M4.9 4.9l1.8 1.8"></path>
+                <path d="M17.3 17.3l1.8 1.8"></path>
+                <path d="M2.5 12H5"></path>
+                <path d="M19 12h2.5"></path>
+                <path d="M4.9 19.1l1.8-1.8"></path>
+                <path d="M17.3 6.7l1.8-1.8"></path>
+              </svg>
+            </button>
+            <button class="icon-button" type="button" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 20.2 4.8 13a4.7 4.7 0 0 1 6.7-6.6L12 7l.5-.6a4.7 4.7 0 0 1 6.7 6.6Z"
+                ></path>
+              </svg>
+            </button>
+            <button class="icon-button" type="button" aria-label="Cart">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="9" cy="19" r="1.6"></circle>
+                <circle cx="18" cy="19" r="1.6"></circle>
+                <path d="M3 5h2l2.2 9h10.3l2-7H6.1"></path>
+              </svg>
+            </button>
+            <button
+              class="icon-button menu-button"
+              id="menuButton"
+              type="button"
+              aria-expanded="false"
+              aria-controls="mobileMenu"
+              aria-label="Open menu"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7h16"></path>
+                <path d="M8 12h12"></path>
+                <path d="M4 17h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu" hidden>
+          <a href="#sale">Laptops</a>
+          <a href="#grails">Components</a>
+          <a href="#categories">Accessories</a>
+          <a href="#social">Surveillance</a>
+          <a href="#stores">Networking</a>
+          <a href="#footer">Contact</a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero-section panel reveal">
+          <div class="hero-main">
+            <img
+              src="./assets/tech/hero-main.jpg"
+              alt="Laptop hero banner with a clean studio composition"
+              class="hero-image"
+            />
+            <div class="hero-overlay"></div>
+
+            <div class="hero-copy">
+              <p class="hero-kicker">CRM Technology Pty Ltd</p>
+              <h1>
+                <span>Innovating</span>
+                <span>Technology</span>
+                <span>For</span>
+                <span>Business</span>
+              </h1>
+            </div>
+
+            <article class="currency-card">
+              <div class="currency-card-head">
+                <span>Customer service</span>
+                <button type="button" aria-label="Close contact card">×</button>
+              </div>
+              <img
+                src="./assets/tech/card-printer-light.png"
+                alt="Printer product card artwork"
+                class="currency-preview"
+              />
+              <div class="currency-card-foot">
+                <span class="currency-country">087 265 8348</span>
+                <span class="currency-code">073 572 1090</span>
+              </div>
+            </article>
+          </div>
+
+          <aside class="hero-rail">
+            <div class="hero-rail-track" id="heroRail"></div>
+            <a class="hero-rail-cta" href="#sale">Order now <span>↗</span></a>
+          </aside>
+        </section>
+
+        <section class="about-section panel reveal" id="about">
+          <img
+            src="./assets/tech/about-banner.jpg"
+            alt="Router banner artwork"
+            class="section-background"
+          />
+          <div class="section-overlay"></div>
+          <div class="about-copy">
+            <h2><span>CRM</span><em>Technology</em></h2>
+            <p>
+              CRM Technology Pty Ltd supplies laptops, components, accessories,
+              surveillance systems, networking products, and everyday office
+              tech. The team supports customers with direct service, WhatsApp
+              assistance, and technology specials across South Africa.
+            </p>
+            <a class="outline-button" href="#footer">Contact us</a>
+          </div>
+        </section>
+
+        <section class="content-section reveal" id="latest-drops">
+          <div class="section-heading">
+            <h2><span class="script">featured</span><span class="accent">PRODUCTS</span></h2>
+            <a href="#sale">View all ↗</a>
+          </div>
+          <div class="drop-grid" id="dropGrid"></div>
+        </section>
+
+        <section class="content-section reveal" id="sale">
+          <div class="section-heading">
+            <h2>
+              <span class="script">easter</span><span class="accent">DEALS</span>
+            </h2>
+            <a href="#grails">View all ↗</a>
+          </div>
+          <div class="product-grid" id="saleGrid"></div>
+        </section>
+
+        <section class="content-section reveal">
+          <div class="section-heading section-heading-stack">
+            <h2><span class="script">why</span><span class="accent">CRM TECHNOLOGY?</span></h2>
+            <p>Free pick-up, returns support, and direct WhatsApp assistance.</p>
+          </div>
+          <div class="why-grid" id="whyGrid"></div>
+        </section>
+
+        <section class="content-section reveal" id="categories">
+          <div class="section-heading">
+            <h2><span class="accent">SHOP BY CATEGORY</span></h2>
+            <a href="#arrivals">Browse all ↗</a>
+          </div>
+          <div class="category-grid" id="categoryGrid"></div>
+        </section>
+
+        <section class="content-section reveal" id="grails">
+          <div class="section-heading">
+            <h2><span class="script">top</span><span class="accent">RATED</span></h2>
+            <a href="#footer">View all ↗</a>
+          </div>
+          <div class="product-grid product-grid-tight" id="grailsGrid"></div>
+        </section>
+
+        <section class="collection-banner panel reveal">
+          <img
+            src="./assets/tech/deal-banner.jpg"
+            alt="Printer deal banner artwork"
+            class="section-background"
+          />
+          <div class="section-overlay section-overlay-deep"></div>
+          <div class="banner-copy">
+            <h2><span>Deal</span><em>of the day</em></h2>
+            <a class="outline-button" href="#sale">Buy now</a>
+          </div>
+        </section>
+
+        <section class="content-section reveal" id="arrivals">
+          <div class="section-heading section-heading-tabs">
+            <div>
+              <h2><span class="script">new</span><span class="accent">ARRIVALS</span></h2>
+            </div>
+            <div class="section-tabs" id="arrivalTabs" aria-label="Arrival filters"></div>
+          </div>
+          <div class="product-grid" id="arrivalGrid"></div>
+        </section>
+
+        <section class="content-section reveal" id="social">
+          <div class="section-heading section-heading-tabs">
+            <h2><span class="accent">CUSTOMER</span><span class="script">Service</span></h2>
+            <div class="social-links">
+              <a href="tel:+27872658348">Phone</a>
+              <a href="https://wa.me/27735721090" target="_blank" rel="noreferrer"
+                >WhatsApp</a
+              >
+              <a href="mailto:info@crmtechnology.co.za">Email</a>
+            </div>
+          </div>
+          <div class="social-grid" id="socialGrid"></div>
+        </section>
+
+        <section class="gift-banner panel reveal">
+          <img
+            src="./assets/tech/subscribe-banner.jpg"
+            alt="Security camera banner artwork"
+            class="section-background"
+          />
+          <div class="section-overlay"></div>
+          <div class="banner-copy banner-copy-wide">
+            <h2><span>Subscribe</span><em>for specials</em></h2>
+            <p>
+              Join our list for the latest specials from CRM Technology Pty
+              Ltd. Don’t worry, we don’t spam.
+            </p>
+            <a class="outline-button" href="#footer">Subscribe</a>
+          </div>
+        </section>
+
+        <section class="content-section reveal" id="stores">
+          <div class="section-heading">
+            <h2><span class="script">contact</span><span class="accent">DETAILS</span></h2>
+          </div>
+          <div class="store-grid" id="storeGrid"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer reveal" id="footer">
+        <div class="footer-brand">
+          <a class="brand footer-brand-mark" href="#top" aria-label="CRM Technology home">
+            <span class="brand-mark" aria-hidden="true">
+              <span></span>
+              <span></span>
+            </span>
+            <span>CRM Technology</span>
+          </a>
+          <p>
+            CRM Technology Pty Ltd brings together laptops, components,
+            accessories, surveillance, networking, and customer support in one
+            storefront.
+          </p>
+        </div>
+
+        <div class="footer-columns">
+          <div>
+            <h3>Categories</h3>
+            <a href="#sale">Laptops</a>
+            <a href="#grails">Components</a>
+            <a href="#categories">Accessories</a>
+            <a href="#arrivals">New arrivals</a>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <a href="mailto:info@crmtechnology.co.za">info@crmtechnology.co.za</a>
+            <a href="tel:+27872658348">087 265 8348</a>
+            <a href="https://wa.me/27735721090" target="_blank" rel="noreferrer"
+              >073 572 1090</a
+            >
+            <a href="#stores">Customer service</a>
+          </div>
+          <div>
+            <h3>Subscribe</h3>
+            <form class="newsletter-form">
+              <label class="sr-only" for="footerEmail">Email address</label>
+              <input id="footerEmail" type="email" placeholder="EMAIL ADDRESS" />
+              <button type="button">Subscribe</button>
+            </form>
+            <p class="footer-note">
+              Join our list for the latest specials. Don’t worry we don’t spam.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
