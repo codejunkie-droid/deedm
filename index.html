@@ -10,12 +10,14 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500;700;800&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,600;0,700;1,600;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
   </head>
   <body data-theme="dark">
     <div class="site-shell">
@@ -55,14 +57,19 @@
                 <path d="M17.3 6.7l1.8-1.8"></path>
               </svg>
             </button>
-            <button class="icon-button" type="button" aria-label="Wishlist">
+            <button
+              class="icon-button"
+              id="wishlistButton"
+              type="button"
+              aria-label="Wishlist"
+            >
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M12 20.2 4.8 13a4.7 4.7 0 0 1 6.7-6.6L12 7l.5-.6a4.7 4.7 0 0 1 6.7 6.6Z"
                 ></path>
               </svg>
             </button>
-            <button class="icon-button" type="button" aria-label="Cart">
+            <button class="icon-button" id="cartButton" type="button" aria-label="Cart">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="9" cy="19" r="1.6"></circle>
                 <circle cx="18" cy="19" r="1.6"></circle>
@@ -96,41 +103,49 @@
         </div>
       </header>
 
+      <div class="ticker-strip">
+        <div class="ticker-track">
+          <span>Free collection available</span>
+          <span>Laptops from R15,499</span>
+          <span>WhatsApp support 073 572 1090</span>
+          <span>Easter deals now live</span>
+          <span>Networking equipment in stock</span>
+          <span>Security cameras available</span>
+          <span>Free collection available</span>
+          <span>Laptops from R15,499</span>
+          <span>WhatsApp support 073 572 1090</span>
+          <span>Easter deals now live</span>
+          <span>Networking equipment in stock</span>
+          <span>Security cameras available</span>
+        </div>
+      </div>
+
       <main id="top">
         <section class="hero-section panel reveal">
           <div class="hero-main">
-            <img
-              src="./assets/tech/hero-main.jpg"
-              alt="Laptop hero banner with a clean studio composition"
-              class="hero-image"
-            />
+            <div class="hover-scale-wrap bg-img-wrap">
+              <img
+                src="./assets/tech/hero-main.jpg"
+                alt="Modern technology workspace setup"
+                class="hero-image"
+                fetchpriority="high"
+                loading="eager"
+              />
+            </div>
             <div class="hero-overlay"></div>
 
             <div class="hero-copy">
               <p class="hero-kicker">CRM Technology Pty Ltd</p>
               <h1>
-                <span>Innovating</span>
-                <span>Technology</span>
+                <span>Premium</span>
+                <span>Tech</span>
                 <span>For</span>
                 <span>Business</span>
               </h1>
+              <p class="hero-sub">Laptops · Components · Networking · Security</p>
+              <a class="hero-cta-button" href="#sale">Shop now <span>↗</span></a>
             </div>
-
-            <article class="currency-card">
-              <div class="currency-card-head">
-                <span>Customer service</span>
-                <button type="button" aria-label="Close contact card">×</button>
-              </div>
-              <img
-                src="./assets/tech/card-printer-light.png"
-                alt="Printer product card artwork"
-                class="currency-preview"
-              />
-              <div class="currency-card-foot">
-                <span class="currency-country">087 265 8348</span>
-                <span class="currency-code">073 572 1090</span>
-              </div>
-            </article>
+            <div class="scroll-indicator">Scroll</div>
           </div>
 
           <aside class="hero-rail">
@@ -140,11 +155,14 @@
         </section>
 
         <section class="about-section panel reveal" id="about">
-          <img
-            src="./assets/tech/about-banner.jpg"
-            alt="Router banner artwork"
-            class="section-background"
-          />
+          <div class="hover-scale-wrap bg-img-wrap">
+            <img
+              src="./assets/tech/about-banner.jpg"
+              alt="Clean office technology environment"
+              class="section-background"
+              loading="lazy"
+            />
+          </div>
           <div class="section-overlay"></div>
           <div class="about-copy">
             <h2><span>CRM</span><em>Technology</em></h2>
@@ -201,11 +219,14 @@
         </section>
 
         <section class="collection-banner panel reveal">
-          <img
-            src="./assets/tech/deal-banner.jpg"
-            alt="Printer deal banner artwork"
-            class="section-background"
-          />
+          <div class="hover-scale-wrap bg-img-wrap">
+            <img
+              src="./assets/tech/deal-banner.jpg"
+              alt="Router deal promotional banner"
+              class="section-background"
+              loading="lazy"
+            />
+          </div>
           <div class="section-overlay section-overlay-deep"></div>
           <div class="banner-copy">
             <h2><span>Deal</span><em>of the day</em></h2>
@@ -238,11 +259,14 @@
         </section>
 
         <section class="gift-banner panel reveal">
-          <img
-            src="./assets/tech/subscribe-banner.jpg"
-            alt="Security camera banner artwork"
-            class="section-background"
-          />
+          <div class="hover-scale-wrap bg-img-wrap">
+            <img
+              src="./assets/tech/subscribe-banner.jpg"
+              alt="Security technology newsletter banner"
+              class="section-background"
+              loading="lazy"
+            />
+          </div>
           <div class="section-overlay"></div>
           <div class="banner-copy banner-copy-wide">
             <h2><span>Subscribe</span><em>for specials</em></h2>
@@ -310,6 +334,36 @@
       </footer>
     </div>
 
-    <script src="./app.js"></script>
+    <aside class="side-panel" id="wishlistPanel" aria-hidden="true">
+      <div class="side-panel-backdrop" data-close-panel></div>
+      <section class="side-panel-card">
+        <header class="side-panel-head">
+          <h2>Wishlist</h2>
+          <button class="icon-button" type="button" data-close-panel aria-label="Close wishlist">
+            ×
+          </button>
+        </header>
+        <div class="side-panel-body" id="wishlistItems"></div>
+      </section>
+    </aside>
+
+    <aside class="side-panel" id="cartPanel" aria-hidden="true">
+      <div class="side-panel-backdrop" data-close-panel></div>
+      <section class="side-panel-card">
+        <header class="side-panel-head">
+          <h2>Cart</h2>
+          <button class="icon-button" type="button" data-close-panel aria-label="Close cart">
+            ×
+          </button>
+        </header>
+        <div class="side-panel-body" id="cartItems"></div>
+      </section>
+    </aside>
+
+    <dialog class="quick-view" id="productDialog">
+      <article class="quick-view-card" id="productDialogContent"></article>
+    </dialog>
+
+    </dialog>
   </body>
 </html>

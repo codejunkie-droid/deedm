@@ -1,17 +1,17 @@
 const heroRail = [
   {
     name: "ASUS TUF Gaming A15",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/cutout-laptop.png",
     alt: "Laptop product image on a dark background",
   },
   {
     name: "TP-Link Archer C6 Router",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/cutout-router.png",
     alt: "Router product image on a light background",
   },
   {
     name: "Seagate Barracuda SSD",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
   },
 ];
@@ -46,7 +46,7 @@ const saleProducts = [
     price: "R17,999.00",
     was: "R19,499.00",
     discount: "8% off",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/cutout-laptop.png",
     alt: "Laptop product image on a dark background",
   },
   {
@@ -54,7 +54,7 @@ const saleProducts = [
     price: "R1,999.00",
     was: "R2,249.00",
     discount: "11% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
   },
   {
@@ -62,7 +62,7 @@ const saleProducts = [
     price: "R7,999.00",
     was: "R8,699.00",
     discount: "8% off",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/cutout-printer.png",
     alt: "Printer product image on a light background",
   },
   {
@@ -70,7 +70,7 @@ const saleProducts = [
     price: "R1,099.00",
     was: "R1,299.00",
     discount: "15% off",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/cutout-router.png",
     alt: "Router product image on a light background",
   },
   {
@@ -78,7 +78,7 @@ const saleProducts = [
     price: "R2,899.00",
     was: "R3,299.00",
     discount: "12% off",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/cutout-camera.png",
     alt: "Security camera product image on a dark background",
   },
   {
@@ -86,7 +86,7 @@ const saleProducts = [
     price: "R15,499.00",
     was: "R16,999.00",
     discount: "9% off",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/cutout-laptop.png",
     alt: "Laptop product image on a dark background",
   },
   {
@@ -94,7 +94,7 @@ const saleProducts = [
     price: "R1,299.00",
     was: "R1,449.00",
     discount: "10% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
   },
   {
@@ -102,7 +102,7 @@ const saleProducts = [
     price: "R6,999.00",
     was: "R7,699.00",
     discount: "9% off",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/cutout-printer.png",
     alt: "Printer product image on a light background",
   },
 ];
@@ -133,43 +133,43 @@ const reasons = [
 const categories = [
   {
     name: "Laptops",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/drop-laptop.jpg",
     alt: "Laptop product image on a dark background",
     shape: "shape-wide",
   },
   {
     name: "Storage",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
     shape: "shape-tall",
   },
   {
     name: "Printers",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/drop-printer.jpg",
     alt: "Printer product image on a light background",
     shape: "shape-wide",
   },
   {
     name: "Security",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/cutout-camera.png",
     alt: "Security camera product image on a dark background",
     shape: "shape-tall",
   },
   {
     name: "Routers",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/drop-router.jpg",
     alt: "Router product image on a light background",
     shape: "shape-wide",
   },
   {
     name: "Gaming",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/hero-main.jpg",
     alt: "Laptop product image on a dark background",
     shape: "shape-tall",
   },
   {
     name: "Office Tech",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/deal-banner.jpg",
     alt: "Printer product image on a light background",
     shape: "shape-wide",
   },
@@ -181,7 +181,7 @@ const grails = [
     price: "R17,999.00",
     was: "R19,499.00",
     discount: "8% off",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/cutout-laptop.png",
     alt: "Laptop product image on a dark background",
   },
   {
@@ -189,7 +189,7 @@ const grails = [
     price: "R1,099.00",
     was: "R1,299.00",
     discount: "15% off",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/cutout-router.png",
     alt: "Router product image on a light background",
   },
   {
@@ -197,7 +197,7 @@ const grails = [
     price: "R1,999.00",
     was: "R2,249.00",
     discount: "11% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
   },
   {
@@ -205,7 +205,7 @@ const grails = [
     price: "R2,899.00",
     was: "R3,299.00",
     discount: "12% off",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/cutout-camera.png",
     alt: "Security camera product image on a dark background",
   },
   {
@@ -213,7 +213,7 @@ const grails = [
     price: "R7,999.00",
     was: "R8,699.00",
     discount: "8% off",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/cutout-printer.png",
     alt: "Printer product image on a light background",
   },
   {
@@ -221,7 +221,7 @@ const grails = [
     price: "R15,499.00",
     was: "R16,999.00",
     discount: "9% off",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/cutout-laptop.png",
     alt: "Laptop product image on a dark background",
   },
 ];
@@ -232,7 +232,7 @@ const arrivals = [
     price: "R1,299.00",
     was: "R1,449.00",
     discount: "10% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
     audience: "storage",
   },
@@ -241,7 +241,7 @@ const arrivals = [
     price: "R1,999.00",
     was: "R2,249.00",
     discount: "11% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
     audience: "storage",
   },
@@ -250,7 +250,7 @@ const arrivals = [
     price: "R3,499.00",
     was: "R3,799.00",
     discount: "8% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
     audience: "storage",
   },
@@ -259,7 +259,7 @@ const arrivals = [
     price: "R899.00",
     was: "R999.00",
     discount: "10% off",
-    image: "./assets/tech/card-ssd-light.png",
+    image: "./assets/tech/cutout-ssd.png",
     alt: "SSD product image on a light background",
     audience: "storage",
   },
@@ -268,7 +268,7 @@ const arrivals = [
     price: "R1,099.00",
     was: "R1,299.00",
     discount: "15% off",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/cutout-router.png",
     alt: "Router product image on a light background",
     audience: "security",
   },
@@ -277,7 +277,7 @@ const arrivals = [
     price: "R1,299.00",
     was: "R1,499.00",
     discount: "13% off",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/cutout-router.png",
     alt: "Router product image on a light background",
     audience: "security",
   },
@@ -286,7 +286,7 @@ const arrivals = [
     price: "R2,899.00",
     was: "R3,299.00",
     discount: "12% off",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/cutout-camera.png",
     alt: "Security camera product image on a dark background",
     audience: "security",
   },
@@ -295,7 +295,7 @@ const arrivals = [
     price: "R3,399.00",
     was: "R3,699.00",
     discount: "8% off",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/cutout-camera.png",
     alt: "Security camera product image on a dark background",
     audience: "security",
   },
@@ -311,7 +311,7 @@ const socialItems = [
   },
   {
     type: "image",
-    image: "./assets/tech/card-laptop-dark.png",
+    image: "./assets/tech/about-banner.jpg",
     alt: "Laptop product image on a dark background",
     label: "About us",
     href: "https://crmtechnology.co.za/",
@@ -326,7 +326,7 @@ const socialItems = [
   },
   {
     type: "image",
-    image: "./assets/tech/card-router-light.png",
+    image: "./assets/tech/hero-main.jpg",
     alt: "Router product image on a light background",
     label: "Contact us",
     href: "mailto:info@crmtechnology.co.za",
@@ -334,7 +334,7 @@ const socialItems = [
   },
   {
     type: "image",
-    image: "./assets/tech/card-camera-dark.png",
+    image: "./assets/tech/deal-banner.jpg",
     alt: "Security camera product image on a dark background",
     label: "WhatsApp",
     href: "https://wa.me/27735721090",
@@ -349,7 +349,7 @@ const socialItems = [
   },
   {
     type: "image",
-    image: "./assets/tech/card-printer-light.png",
+    image: "./assets/tech/subscribe-banner.jpg",
     alt: "Printer product image on a light background",
     label: "Delivery",
     href: "https://crmtechnology.co.za/",
@@ -369,14 +369,14 @@ const stores = [
     city: "Customer Service",
     area: "Phone, WhatsApp & Email",
     hours: "087 265 8348 | 073 572 1090 | info@crmtechnology.co.za",
-    image: "./assets/tech/drop-router.jpg",
+    image: "./assets/tech/about-banner.jpg",
     alt: "Router banner artwork",
   },
   {
     city: "Resources",
     area: "Policies & Delivery",
     hours: "About Us | Terms of Service | Return & Refund | Delivery",
-    image: "./assets/tech/drop-printer.jpg",
+    image: "./assets/tech/deal-banner.jpg",
     alt: "Printer banner artwork",
   },
 ];
@@ -411,6 +411,8 @@ const themeIcons = {
 
 const state = {
   arrivalFilter: "all",
+  wishlist: [],
+  cart: [],
 };
 
 function renderHeroRail() {
@@ -419,7 +421,7 @@ function renderHeroRail() {
     .map(
       (item) => `
         <article class="hero-rail-card" aria-label="${item.name}">
-          <img src="${item.image}" alt="${item.alt}" />
+          <div class="hover-scale-wrap"><img src="${item.image}" alt="${item.alt}" /></div>
         </article>
       `,
     )
@@ -432,7 +434,7 @@ function renderDrops() {
     .map(
       (item) => `
         <article class="drop-card">
-          <img src="${item.image}" alt="${item.alt}" />
+          <div class="hover-scale-wrap bg-img-wrap"><img src="${item.image}" alt="${item.alt}" loading="lazy" /></div>
           <div class="drop-copy">
             <span class="drop-label">${item.label}</span>
             <h3>${item.title}</h3>
@@ -454,11 +456,11 @@ function renderProductCard(item) {
     : "";
 
   return `
-    <article class="product-card">
-      <div class="product-card-media">
+    <article class="product-card" data-product="${item.name}">
+      <div class="product-card-media hover-scale-wrap">
         <span class="product-card-favorite" aria-hidden="true">♡</span>
         ${discount}
-        <img src="${item.image}" alt="${item.alt}" />
+        <img src="${item.image}" alt="${item.alt}" loading="lazy" />
       </div>
       <div class="product-card-body">
         <h3>${item.name}</h3>
@@ -466,6 +468,10 @@ function renderProductCard(item) {
           <div class="price-stack">
             <strong>${item.price}</strong>
             ${priceDetail}
+          </div>
+          <div class="product-card-actions">
+            <button class="chip-button" type="button" data-wishlist="${item.name}">Wishlist</button>
+            <button class="chip-button accent" type="button" data-cart="${item.name}">Cart</button>
           </div>
         </div>
       </div>
@@ -476,6 +482,7 @@ function renderProductCard(item) {
 function renderProductGrid(rootId, items) {
   const root = document.querySelector(rootId);
   root.innerHTML = items.map(renderProductCard).join("");
+  bindProductActions();
 }
 
 function renderWhy() {
@@ -499,7 +506,7 @@ function renderCategories() {
     .map(
       (item) => `
         <article class="category-card ${item.shape}">
-          <img src="${item.image}" alt="${item.alt}" />
+          <div class="hover-scale-wrap bg-img-wrap"><img src="${item.image}" alt="${item.alt}" loading="lazy" /></div>
           <div class="category-copy">${item.name}</div>
         </article>
       `,
@@ -536,6 +543,7 @@ function renderArrivalTabs() {
       state.arrivalFilter = button.dataset.filter;
       renderArrivalTabs();
       renderArrivals();
+      bindProductActions();
     });
   });
 }
@@ -559,7 +567,7 @@ function renderSocial() {
 
       return `
         <article class="social-card image ${item.classes}">
-          <img src="${item.image}" alt="${item.alt}" />
+          <div class="hover-scale-wrap bg-img-wrap"><img src="${item.image}" alt="${item.alt}" loading="lazy" /></div>
           <a
             class="social-card-image-link"
             href="${item.href}"
@@ -580,8 +588,8 @@ function renderStores() {
     .map(
       (item) => `
         <article class="store-card">
-          <div class="store-card-media">
-          <img src="${item.image}" alt="${item.alt}" />
+          <div class="store-card-media hover-scale-wrap bg-img-wrap">
+            <img src="${item.image}" alt="${item.alt}" loading="lazy" />
           </div>
           <div class="store-card-copy">
             <div>
@@ -594,6 +602,252 @@ function renderStores() {
       `,
     )
     .join("");
+}
+
+function getAllProducts() {
+  return [...saleProducts, ...grails, ...arrivals];
+}
+
+function getProductByName(name) {
+  return getAllProducts().find((item) => item.name === name);
+}
+
+function bindProductActions() {
+  document.querySelectorAll("[data-wishlist]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const product = getProductByName(button.dataset.wishlist);
+      if (!product) {
+        return;
+      }
+
+      if (!state.wishlist.some((item) => item.name === product.name)) {
+        state.wishlist.push(product);
+      }
+      renderWishlistPanel();
+      openPanel("wishlistPanel");
+    });
+  });
+
+  document.querySelectorAll("[data-cart]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const product = getProductByName(button.dataset.cart);
+      if (!product) {
+        return;
+      }
+      state.cart.push(product);
+      renderCartPanel();
+      openPanel("cartPanel");
+    });
+  });
+
+  document.querySelectorAll(".product-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const product = getProductByName(card.dataset.product);
+      if (product) {
+        openProductDialog(product);
+      }
+    });
+  });
+}
+
+function renderWishlistPanel() {
+  const root = document.querySelector("#wishlistItems");
+  if (!root) {
+    return;
+  }
+
+  if (!state.wishlist.length) {
+    root.innerHTML = `<p class="quick-view-meta">No items in your wishlist yet.</p>`;
+    return;
+  }
+
+  root.innerHTML = state.wishlist
+    .map(
+      (item) => `
+      <article class="panel-item">
+        <img src="${item.image}" alt="${item.alt}" />
+        <div>
+          <h3>${item.name}</h3>
+          <p>${item.price}</p>
+        </div>
+      </article>
+    `,
+    )
+    .join("");
+}
+
+function renderCartPanel() {
+  const root = document.querySelector("#cartItems");
+  if (!root) {
+    return;
+  }
+
+  if (!state.cart.length) {
+    root.innerHTML = `<p class="quick-view-meta">No items in your cart yet.</p>`;
+    return;
+  }
+
+  const total = state.cart.reduce((sum, item) => {
+    const numeric = Number(item.price.replace(/[^\d.-]/g, "")) || 0;
+    return sum + numeric;
+  }, 0);
+
+  root.innerHTML =
+    state.cart
+      .map(
+        (item) => `
+      <article class="panel-item">
+        <img src="${item.image}" alt="${item.alt}" />
+        <div>
+          <h3>${item.name}</h3>
+          <p>${item.price}</p>
+        </div>
+      </article>
+    `,
+      )
+      .join("") +
+    `
+      <div class="panel-summary">
+        <span>Total</span>
+        <strong>R${total.toLocaleString("en-ZA", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</strong>
+      </div>
+    `;
+}
+
+function openPanel(panelId) {
+  const panel = document.getElementById(panelId);
+  if (panel) {
+    panel.classList.add("is-open");
+    panel.setAttribute("aria-hidden", "false");
+  }
+}
+
+function closePanels() {
+  document.querySelectorAll(".side-panel").forEach((panel) => {
+    panel.classList.remove("is-open");
+    panel.setAttribute("aria-hidden", "true");
+  });
+}
+
+function bindPanels() {
+  const wishlistButton = document.querySelector("#wishlistButton");
+  const cartButton = document.querySelector("#cartButton");
+
+  wishlistButton?.addEventListener("click", () => {
+    renderWishlistPanel();
+    openPanel("wishlistPanel");
+  });
+
+  cartButton?.addEventListener("click", () => {
+    renderCartPanel();
+    openPanel("cartPanel");
+  });
+
+  document.querySelectorAll("[data-close-panel]").forEach((button) => {
+    button.addEventListener("click", closePanels);
+  });
+}
+
+function openProductDialog(product) {
+  const dialog = document.querySelector("#productDialog");
+  const content = document.querySelector("#productDialogContent");
+  if (!dialog || !content) {
+    return;
+  }
+
+  content.innerHTML = `
+    <div class="quick-view-media">
+      <img src="${product.image}" alt="${product.alt}" />
+    </div>
+    <div class="quick-view-body">
+      <span class="quick-view-meta">Product details</span>
+      <h3>${product.name}</h3>
+      <div class="quick-view-price">
+        <strong>${product.price}</strong>
+        ${product.was ? `<span>${product.was}</span>` : ""}
+      </div>
+      <p>
+        Premium product presentation inspired by RAWLINE style: bold layout, clean focus, and fast actions for wishlist and cart.
+      </p>
+      <div class="quick-view-actions">
+        <button class="chip-button" type="button" id="dialogWishlistButton">Add to wishlist</button>
+        <button class="chip-button accent" type="button" id="dialogCartButton">Add to cart</button>
+        <button class="chip-button" type="button" id="dialogCloseButton">Close</button>
+      </div>
+    </div>
+  `;
+
+  dialog.showModal();
+
+  content.querySelector("#dialogWishlistButton")?.addEventListener("click", () => {
+    if (!state.wishlist.some((item) => item.name === product.name)) {
+      state.wishlist.push(product);
+    }
+    renderWishlistPanel();
+    dialog.close();
+    openPanel("wishlistPanel");
+  });
+
+  content.querySelector("#dialogCartButton")?.addEventListener("click", () => {
+    state.cart.push(product);
+    renderCartPanel();
+    dialog.close();
+    openPanel("cartPanel");
+  });
+
+  content.querySelector("#dialogCloseButton")?.addEventListener("click", () => {
+    dialog.close();
+  });
+}
+
+function bindDialogClose() {
+  const dialog = document.querySelector("#productDialog");
+  if (!dialog) {
+    return;
+  }
+  dialog.addEventListener("click", (event) => {
+    const rect = dialog.getBoundingClientRect();
+    const inDialog =
+      event.clientX >= rect.left &&
+      event.clientX <= rect.right &&
+      event.clientY >= rect.top &&
+      event.clientY <= rect.bottom;
+    if (!inDialog) {
+      dialog.close();
+    }
+  });
+}
+
+function bindMotionEffects() {
+  const hero = document.querySelector(".hero-main");
+  const heroImage = document.querySelector(".hero-image");
+  if (!hero || !heroImage) {
+    return;
+  }
+
+  let rafId = null;
+
+  hero.addEventListener("mousemove", (event) => {
+    if (rafId) {
+      cancelAnimationFrame(rafId);
+    }
+
+    rafId = requestAnimationFrame(() => {
+      const rect = hero.getBoundingClientRect();
+      const x = (event.clientX - rect.left) / rect.width - 0.5;
+      const y = (event.clientY - rect.top) / rect.height - 0.5;
+      heroImage.style.transform = `scale(1.05) translate(${x * 12}px, ${y * 12}px)`;
+    });
+  });
+
+  hero.addEventListener("mouseleave", () => {
+    if (rafId) {
+      cancelAnimationFrame(rafId);
+    }
+    heroImage.style.transform = "";
+  });
 }
 
 function bindMobileMenu() {
@@ -696,9 +950,15 @@ function init() {
   renderArrivals();
   renderSocial();
   renderStores();
+  renderWishlistPanel();
+  renderCartPanel();
   bindMobileMenu();
   bindThemeToggle();
   bindReveal();
+  bindPanels();
+  bindDialogClose();
+  bindMotionEffects();
+  bindProductActions();
 }
 
 init();
